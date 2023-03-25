@@ -46,7 +46,7 @@ const posts = [
     }
 ]
 
-const authors = [
+const users = [
     {
         "id": 1,
         "name": "Leanne Graham",
@@ -124,8 +124,8 @@ const authors = [
 // console.log(posts.find(post => post.userId == 1));
 
 // campo do objeto
-const idAuthor = posts.find(post => post.userId == 1).userId;
-console.log(posts[0].userId);
-console.log(idAuthor);
+// const idAuthor = posts.find(post => post.userId == 1).userId;
+// const idAuthor = posts[0].userId;
+// console.log(idAuthor);
 
 // console.log(authors.find(author => author.id == idAuthor));
